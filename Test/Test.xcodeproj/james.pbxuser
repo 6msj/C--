@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC09C05546B4700DB518D /* Test */;
+		codeSenseManager = 1AA6B64116B48A8C00FACC74 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					258,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 380930689;
+			PBXWorkspaceStateSaveDate = 380930689;
+		};
+		perUserProjectItems = {
+			1AA6B63916B48A8800FACC74 /* PBXBookmark */ = 1AA6B63916B48A8800FACC74 /* PBXBookmark */;
+			1AA6B64216B48A9F00FACC74 /* PBXTextBookmark */ = 1AA6B64216B48A9F00FACC74 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1AA6B64016B48A8C00FACC74 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1AA6B63916B48A8800FACC74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5073E0C409E734A800EC74B6 /* Test.cp */;
+	};
+	1AA6B64016B48A8C00FACC74 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	1AA6B64116B48A8C00FACC74 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1AA6B64216B48A9F00FACC74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C409E734A800EC74B6 /* Test.cp */;
+		name = "Test.cp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	5073E0C409E734A800EC74B6 /* Test.cp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1241, 585}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1241, 585}}";
+		};
+	};
+	D2AAC09C05546B4700DB518D /* Test */ = {
+		activeExec = 0;
+	};
+}
