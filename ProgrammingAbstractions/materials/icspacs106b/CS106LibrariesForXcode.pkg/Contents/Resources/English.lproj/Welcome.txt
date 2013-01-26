@@ -1,0 +1,1 @@
+This package installs the CS106 C++ libraries for use with Mac OS Xcode. You must also have installed Xcode version 2.5 (or newer).

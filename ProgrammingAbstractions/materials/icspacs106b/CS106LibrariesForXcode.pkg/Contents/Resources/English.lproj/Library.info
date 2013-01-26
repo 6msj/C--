@@ -1,0 +1,17 @@
+Title CS106C++LibrariesForXcode
+Version 
+Description CS106 C++ libraries, version 1.1, January 5 2008
+DefaultLocation /
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions NO
+InstallFat NO
+RootVolumeOnly NO
+OnlyUpdateInstalledLanguages NO
