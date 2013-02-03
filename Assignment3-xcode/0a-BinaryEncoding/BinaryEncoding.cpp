@@ -12,6 +12,7 @@ using namespace std;
 /* Function prototypes */
 
 void generateBinaryCode(int nBits);
+void generateBinaryWithPrefix(int nBits, string prefix);
 
 /* Main program */
 
@@ -30,5 +31,18 @@ int main() {
 
 void generateBinaryCode(int nBits) {
    // Fill this in
+   if(nBits < 0) {
+       cout << "Number is less than zero." << endl;
+   } else {
+       generateBinaryWithPrefix(nBits, "");
+   }
+}
 
+void generateBinaryWithPrefix(int nBits, string prefix) {
+    if(nBits == 0) {
+        cout << prefix << endl;
+    } else {
+        generateBinaryWithPrefix(nBits-1, prefix + "0");
+        generateBinaryWithPrefix(nBits-1, prefix + "1");
+    }
 }

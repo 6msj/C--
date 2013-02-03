@@ -10,12 +10,15 @@
 
 #include <iostream>
 #include "gwindow.h"
+#include "gobjects.h"
 using namespace std;
 
 /* Main program */
 
 int main() {
    GWindow gw(600, 500);
+   GLine triangle_(200, 200, 200, 200);
+
    // Fill in the necessary code here
    return 0;
 }

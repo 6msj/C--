@@ -11,11 +11,16 @@ using namespace std;
 /* Function prototypes */
 
 int countPaths(int street, int avenue);
+int countPaths__(int street, int avenue); 
+
+
+int __countPaths__solution2(int street, int avenue);
 
 /* Main program */
 
 int main() {
    // [Fill this in with a test program]
+   cout << countPaths(2, 3) << endl;
    return 0;
 }
 
@@ -29,5 +34,33 @@ int main() {
  */
 
 int countPaths(int street, int avenue) {
-   // [Fill this in]
+   return countPaths__(street, avenue);
 }
+
+
+int countPaths__(int street, int avenue) {
+    if(street == 1 && avenue == 1) {
+        return 0;
+    }
+
+    if(street >= 2) {
+        return 1 + countPaths__(street-1, avenue);
+    }
+
+    if(avenue >= 2) {
+        return 1 + countPaths__(street, avenue-1);
+    }
+
+    return 0;
+        
+}
+
+int __countPaths__solution2(int street, int avenue) {
+    if (street == 1 || avenue == 1) {
+      return 1;
+   } else {
+      return countPaths(street - 1, avenue) + countPaths(street, avenue - 1);
+   }
+}
+ 
+

@@ -16,11 +16,17 @@ using namespace std;
 /* Function prototypes */
 
 bool isBalanced(string exp);
+int findPosition(string exp);
 
 /* Main program */
 
 int main() {
    // [write a test program here]
+   if(isBalanced("()[]8{}")) {
+       cout << "true" << endl;
+   } else {
+       cout << "false" << endl;
+   }
    return 0;
 }
 
@@ -35,5 +41,34 @@ int main() {
 
 bool isBalanced(string exp) {
    // [Fill in this code]
+   if(exp == "") {
+       return true;
+   } else {
+       int position = findPosition(exp);
+       if(position == -1) return false;
+       exp.erase(position, 2);
+       return isBalanced(exp);
+   }
    return false;
 }
+
+int findPosition(string exp) {
+    int pos = -1;
+
+    pos = exp.find("()");
+    if(pos != -1) {
+        return pos;
+    }
+    pos = exp.find("[]");
+    if(pos != -1) {
+        return pos;
+    }
+
+    pos = exp.find("{}");
+    if(pos != -1) {
+        return pos;
+    }
+    
+    return -1;
+}
+
