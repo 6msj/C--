@@ -1,0 +1,11 @@
+lit 1 lit 10 sti lit 2 lit 11 sti lit 3 lit 12 sti
+lit 1 lit 1 ldi inc 5 sti lit 1 ldi out
+lit 2 lit 2 ldi dec 3 sti lit 2 ldi out
+lit 1 ldi lit 2 ldi lt
+lit 1 ldi lit 3 ldi lt
+lit 2 ldi lit 3 ldi lt
+or and
+lit 70     (i.e. the address of the below 'quit' instruction)
+brf
+lit 3 ldi out
+quit
