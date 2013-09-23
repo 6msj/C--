@@ -6,7 +6,7 @@ void reverseString(char word[]);
 
 int main() {
     char word[] = "String";
-    reverseString(word)
+    reverseString(word);
     return 0;
 }
 
